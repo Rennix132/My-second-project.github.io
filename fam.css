@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+h1, h2, h3 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.page1 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: linear-gradient(to bottom, #e0f2fe, #ffffff);
+}
+
+.bio {
+    width: 60%;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    margin-right: 20px;
+}
+
+.photo {
+    width: 50%;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: darkblue;
+}
+
+.page2 {
+    background: linear-gradient(to bottom, #f1f5f9, #ffffff);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.title-oval {
+    display: inline-block;
+    padding: 20px 60px;
+    background: #2563eb;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.table-oval {
+    margin: 0 auto;
+    border-spacing: 30px;
+}
+
+.oval {
+    background: white;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.oval h3 {
+    margin-top: 0;
+    color: #1e3a8a;
+}
+
+.oval p {
+    font-size: 14px;
+    color: #444;
+}
+
+.back {
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #007BFF;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back:hover {
+  background-color: #0056b3; 
+}

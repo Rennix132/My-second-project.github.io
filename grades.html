@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grades</title>
+    <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+    <h1 id="title">Students grades</h1>
+
+    <table class="mytable">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Meir</td>
+            <td>WEB</td>
+            <td>A+</td>
+        </tr>
+        <tr class="highlight">
+            <td>History</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td colspan="2">Science - B</td>
+        </tr>
+        <tr>
+            <td>Clara</td>
+            <td>English</td>
+            <td>A-</td>
+        </tr>
+    </table>
+
+    <h1 id="form-title">Feedback Form</h1>
+    <form class="mform">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"> <br><br>
+
+        <label for="role">Role:</label>
+        <select id="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Others</option>
+        </select><br><br>
+
+        <label>Do you like cake</label><br>
+        <input type="radio" name="like" value="yes">yes
+        <input type="radio" name="like" value="no">no<br><br>
+
+        <label for="comment">Comments:</label><br>
+        <textarea id="comment" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit" class="bt">Send</button>
+    </form>
+
+    <a href="index.html" class="back">Back</a>
+</body>
+</html>

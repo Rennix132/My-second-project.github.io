@@ -1,0 +1,87 @@
+#title {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.mytable {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.mytable th {
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.mytable td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.mytable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.highlight {
+    background-color: lightgreen;
+}
+
+#form-title {
+    text-align: center;
+    margin-top: 40px;
+    color: darkgreen;
+}
+
+.mform {
+    width: 300px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mform label {
+    font-weight: bold;
+}
+
+.mform input, .mform select, .mform textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.bt {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background-color: blue;
+}
+
+.back {
+    display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #007BFF;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back:hover {
+  background-color: #0056b3; 
+}
